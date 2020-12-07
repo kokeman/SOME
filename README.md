@@ -16,9 +16,9 @@ Paper: https://www.aclweb.org/anthology/2020.coling-main.573.pdf
 ```
 python some.py [hypothesis file] [source file] [output_file] \
     --g-dir [directry path of grammar model] \
-    --f-dir [directry path of fluency model ] \
+    --f-dir [directry path of fluency model] \
     --m-dir [directry path of meaning model]
 ```
 More option can be found ```python some.py -h```.  
-The default weight of each model are tuned with sentence-level Kendall tau on [Grundkiewicz et al. (2015).](https://www.aclweb.org/anthology/D15-1)
-More details can be found the paper.
+The default weight of each model are tuned with Kendall tau on [Grundkiewicz et al. (2015).](https://www.aclweb.org/anthology/D15-1)
+Details can be found the paper.
