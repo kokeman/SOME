@@ -14,10 +14,10 @@ Paper: https://www.aclweb.org/anthology/2020.coling-main.573.pdf
 # How to use
 
 ```
-python some.py [hypothesis file] [source file] [output_file] \
+python some.py [hypothesis file] [source file] \
     --g-dir [directry path of grammar model] \
     --f-dir [directry path of fluency model] \
-    --m-dir [directry path of meaning model]
+    --m-dir [directry path of meaning model] > predict_score
 ```
 More option can be found ```python some.py -h```.  
 The default weight of each model are tuned with Kendall tau on [Grundkiewicz et al. (2015).](https://www.aclweb.org/anthology/D15-1)
