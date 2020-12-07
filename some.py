@@ -166,15 +166,13 @@ def main(args):
         score = sum(scores) / len(scores)
         print(f"score: {score}")
     else:
-        with open(args.o, 'w') as f:
-            for s in scorer.score():
-                f.write(f'{s}\n')
+        for s in scorer.score():
+            print(s)
 
 if __name__ == '__main__':
     parser = argparse.ArgumentParser()
     parser.add_argument('hyp', help='system outputs file')
     parser.add_argument('src', help='source file')
-    parser.add_argument('out', help='output file path')
     parser.add_argument('--g-dir', help='grammer model dir')
     parser.add_argument('--f-dir', help='fluency model dir')
     parser.add_argument('--m-dir', help='meaning model dir')
