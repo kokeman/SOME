@@ -1,5 +1,5 @@
 # SOME
-SOME: Reference-less Sub-Metrics Optimized for Manual Evaluations of Grammatical Error Correction
+SOME: Reference-less Sub-Metrics Optimized for Manual Evaluations of Grammatical Error Correction  
 Paper: https://www.aclweb.org/anthology/2020.coling-main.573.pdf
 
 # Dependencies
